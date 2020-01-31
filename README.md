@@ -28,8 +28,6 @@ CNN (Convolutional Neural Network ) - Slower but accurate results than that of t
 Note - Train everytime when new faces added to the dataset
 
 
----------------------------------------------------------------
-
 ## Step 2 - 
 
 Run the code to recognize the faces from the image as well as video
@@ -52,6 +50,8 @@ python recognize_faces_video.py --encodings encodings.pickle
 ```
 python recognize_faces_video.py --encodings encodings.pickle --output output/ayaz.avi --display 0
 ```
+
+---------------------------------------------------------------
 
 ## Demo
 
