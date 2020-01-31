@@ -13,7 +13,11 @@ Create the encodings of the faces
 
 It will generate encodings.pickle ( model file )
 
-For that Run - python encode_faces.py
+- For that Run - 
+
+```
+python encode_faces.py
+```
 
 It is the process of training over the faces (images) present in the dataset  
 You can use any of the method either Hog or Cnn -
@@ -31,10 +35,24 @@ Note - Train everytime when new faces added to the dataset
 Run the code to recognize the faces from the image as well as video
 
 
-To Recognize faces from input image       -  python recognize_faces_image.py --encodings encodings.pickle --image dataset/Ayaz/ayaz.jpg 
+- To Recognize faces from input image
 
-To Recognize faces from live video        -  python recognize_faces_video.py --encodings encodings.pickle 
+```
+python recognize_faces_image.py --encodings encodings.pickle --image dataset/Ayaz/ayaz.jpg 
+```
 
-To Reocgnize faces from input video file  -  python recognize_faces_video.py --encodings encodings.pickle --output output/ayaz.avi --display 0
+- To Recognize faces from live video
 
+```
+python recognize_faces_video.py --encodings encodings.pickle 
+```
 
+- To Reocgnize faces from input video file
+
+```
+python recognize_faces_video.py --encodings encodings.pickle --output output/ayaz.avi --display 0
+```
+
+## Demo
+
+Link to demo [video](https://www.youtube.com/watch?v=hz_BMu_lJuw&feature=youtu.be).
