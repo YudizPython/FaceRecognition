@@ -1,4 +1,4 @@
-# FaceRecognition
+# AI Based Face Detection & Recognition
 Face detection is a computer vision technology that helps to locate/ visualize the human faces in images and predicts the identity of that face. 
 
 The Face Recognition System uses accurate computer algorithms to pick out the specific, distinctive details about a person’s face.
