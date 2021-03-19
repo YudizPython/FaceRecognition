@@ -2,7 +2,7 @@ imutils
 gunicorn
 Django==1.9
 cmake
-djangorestframework==3.6.3
+djangorestframework==3.11.2
 dlib==19.17.0
 face_recognition==1.2.3
 requests
