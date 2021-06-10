@@ -1,6 +1,6 @@
 imutils
 gunicorn
-Django==1.9
+Django==2.2.24
 cmake
 djangorestframework==3.6.3
 dlib==19.17.0
